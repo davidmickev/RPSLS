@@ -1,0 +1,9 @@
+Button {
+	-fx-font-size: 24px;
+	-fx-font-weight: bold;
+	-fx-background-color: pink;
+}
+
+.border {
+	-fx-background-color: orange;
+}

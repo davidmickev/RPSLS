@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: login;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneChanger">
+    <children>
+        <ImageView fitHeight="608.0" fitWidth="800.0" layoutY="-1.0">
+            <image>
+                <Image url="@../images/login.jpg" />
+            </image>
+        </ImageView>
+        <VBox fx:id="root" layoutX="246.0" layoutY="470.0" prefHeight="77.0" prefWidth="351.0" styleClass="Pane">
+            <children>
+                <!-- TODO Add Nodes -->
+      
+      
+                <Button fx:id="server" onAction="#connectToServer" prefHeight="76.0" prefWidth="355.0" text="Play" />
+            </children>
+
+        </VBox>
+        <TextField fx:id="portSelect" layoutX="246.0" layoutY="278.0" onAction="#grabTextPort" prefHeight="50.0" prefWidth="351.0" text="Port Selection" />
+        <TextField fx:id="ipSelect" layoutX="246.0" layoutY="345.0" onAction="#grabTextIP" prefHeight="50.0" prefWidth="351.0" text="IP Address" />
+      <Button layoutX="626.0" layoutY="470.0" mnemonicParsing="false" onAction="#Menu2" prefHeight="77.0" prefWidth="90.0" text="Continue" />
+    </children>
+</Pane>

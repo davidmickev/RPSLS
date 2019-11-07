@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneChanger">
+   <children>
+      <ImageView fitHeight="610.0" fitWidth="800.0" layoutY="-4.0">
+         <image>
+            <Image url="@../images/rockpaperscissorslizardspock_newthumb.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="b1" layoutX="684.0" layoutY="14.0" onAction="#b1Main" prefHeight="25.0" prefWidth="102.0" text="RESET" />
+      <Button layoutX="285.0" layoutY="547.0" mnemonicParsing="false" onAction="#Menu3" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: white;" text="Play">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <BorderPane fx:id="root2" layoutX="800.0" layoutY="592.0" prefHeight="0.0" prefWidth="0.0" styleClass="border" />
+      <ProgressIndicator layoutX="15.0" layoutY="395.0" prefHeight="98.0" prefWidth="125.0" progress="0.0" />
+      <ProgressIndicator layoutX="661.0" layoutY="402.0" prefHeight="98.0" prefWidth="125.0" progress="0.0" />
+      <TextArea editable="false" layoutX="19.0" layoutY="351.0" prefHeight="19.0" prefWidth="118.0" text="Player 1" />
+      <TextArea accessibleRole="IMAGE_VIEW" editable="false" layoutX="665.0" layoutY="350.0" prefHeight="0.0" prefWidth="118.0" text="Player 2" />
+   </children>
+</Pane>

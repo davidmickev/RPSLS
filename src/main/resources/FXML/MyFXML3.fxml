@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneChanger">
+   <children>
+      
+      <ImageView disable="true" fitHeight="606.0" fitWidth="800.0">
+         <image>
+            <Image url="@../images/triangles_background_light_91693_800x600.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="227.0" layoutY="317.0" mnemonicParsing="false" onAction="#spock" prefHeight="110.0" prefWidth="110.0" style="-fx-background-radius: 50000;" text="Spock" />
+      <Button layoutX="480.0" layoutY="312.0" mnemonicParsing="false" onAction="#paper" prefHeight="110.0" prefWidth="110.0" style="-fx-background-radius: 50000;" text="Paper" />
+      <Button layoutX="350.0" layoutY="228.0" mnemonicParsing="false" onAction="#scissors" prefHeight="110.0" prefWidth="110.0" style="-fx-background-radius: 50000;" text="Scissors" />
+      <Button layoutX="276.0" layoutY="461.0" mnemonicParsing="false" onAction="#lizard" prefHeight="110.0" prefWidth="110.0" style="-fx-background-radius: 50000;" text="Lizard" />
+      <Button layoutX="684.0" layoutY="14.0" onAction="#b2Main" prefHeight="25.0" prefWidth="102.0" text="RESET" />
+      <Button layoutX="433.0" layoutY="461.0" mnemonicParsing="false" onAction="#rock" prefHeight="110.0" prefWidth="110.0" style="-fx-background-radius: 50000;" text="Rock" />
+      <BorderPane fx:id="root3" layoutX="800.0" layoutY="592.0" prefHeight="0.0" prefWidth="0.0" styleClass="border" />
+      <ImageView disable="true" fitHeight="383.0" fitWidth="402.0" layoutX="208.0" layoutY="209.0">
+         <image>
+            <Image url="@../images/RPSLS.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
